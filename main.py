@@ -1,11 +1,13 @@
 from fastapi import FastAPI
-from carte.adaugare_carte import carti_router
-from carte.lista_carti_full import books_list_router
+from book.add_book import carti_router
+from book.books_list import books_list_router
+from search.title_search import search_router
 
 biblioteca = FastAPI()
 
 biblioteca.include_router(carti_router)
 biblioteca.include_router(books_list_router)
+biblioteca.include_router(search_router)
 
 if __name__ == "__main__":
     import uvicorn
