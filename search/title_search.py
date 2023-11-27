@@ -27,14 +27,22 @@ from library.fake_db import fake_db
 #     search_books = [book for book in books if an.lower() in book.get("an", " ").lower() ]
 #     return search_books
 
-search_results_router=APIRouter()
+search_results_router = APIRouter()
 
-@search_results_router.get("/biblioteca/search/", response_model=List[BookCreate])
-def search(titlu: str, autor: str, an: str):
+
+@search_results_router.get("/biblioteca/search/{data}")
+def search(data):
     books = fake_db.get("add_book", {}).values()
     search_results = []
+
     for book in books:
-        results_filter = ((titlu or titlu.lower() in book.get("titlu", "").lower())and(autor or autor.lower() in book.get("autor", "").lower())and(an or an.lower() in book.get("an", "").lower()))
-        if results_filter:
+        data = data.lower()
+        if data in book["titlu"].lower() or data in book["autor"].lower() or data in book["an"].lower():
             search_results.append(book)
+    # for book in books:
+    #     results_filter = ((titlu.lower() in book.get("titlu", "").lower()) or
+    #                       (autor.lower() in book.get("autor", "").lower()) or
+    #                       (an == book.get("an")))
+    #     if results_filter:
+    #         search_results.append(book)
     return search_results

@@ -1,4 +1,5 @@
 import json
+# from fastapi import HTTPException
 from uuid import uuid4
 from library.fake_db import fake_db
 
@@ -13,6 +14,19 @@ def get_book_data(data):
 
 def add_book(data):
     books = fake_db.get("add_book", {})
+
+    existing_book = next(
+        (book for book in books.values() if
+         book["titlu"].lower() == data.titlu.lower() and
+         book["autor"].lower() == data.autor.lower() and
+         book["an"] == data.an),
+        None
+    )
+
+    # if existing_book:
+    #     return None
+    # if existing_book:
+    #     raise HTTPException(status_code=404, detail="Cartea introdusa este deja existenta")
 
     book_id = str(uuid4())
 

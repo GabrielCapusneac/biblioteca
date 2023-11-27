@@ -10,6 +10,10 @@ carti_router = APIRouter()
 @carti_router.post("/biblioteca/adaugare_carte", response_model=BookCreate)
 def addbook(book_data: BookCreate):
     book = get_book_data(book_data)
+    # existing_book = get_book_data(book_data)
+    # if existing_book:
+    #     return existing_book
+    # book = add_book(book_data)
     if not book:
         book = add_book(book_data)
     return book

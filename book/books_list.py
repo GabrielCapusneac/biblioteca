@@ -8,5 +8,5 @@ books_list_router = APIRouter()
 
 @books_list_router.get("/biblioteca/catalog_carti")
 def get_full_books_list():
-    books = fake_db.get("adaugare_carte", {}).values()
+    books = fake_db.get("add_book", {}).values()
     return list(books)
