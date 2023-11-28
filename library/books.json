@@ -1,1 +1,68 @@
-{"e9a86e56-8636-4cec-8c99-e13801ecddc1": {"titlu": "Copacul 312312", "autor": "Ion Popescu", "an": "1999", "id": "e9a86e56-8636-4cec-8c99-e13801ecddc1"}, "f35cffba-9c36-4dc5-b830-86b73f792a4f": {"titlu": "Enigma Otiliei", "autor": "George Calinescu", "an": "1938", "id": "f35cffba-9c36-4dc5-b830-86b73f792a4f"}, "fb7e6eb7-91bc-4526-94a8-26b326d7b86c": {"titlu": "Ion", "autor": "Liviu Rebreanu", "an": "1920", "id": "fb7e6eb7-91bc-4526-94a8-26b326d7b86c"}, "80b03ede-cf76-4fee-94e6-2c968efc6585": {"titlu": "Moara cu noroc", "autor": "Ioan Slavici", "an": "1881", "id": "80b03ede-cf76-4fee-94e6-2c968efc6585"}, "ade843d1-19b8-408e-989f-e74f6abd78c9": {"titlu": "Amintiri din copilarie", "autor": "Ion Creanga", "an": "1883", "id": "ade843d1-19b8-408e-989f-e74f6abd78c9"}, "e4cd189f-676b-473f-9a55-d8480ddf0a1b": {"titlu": "Luceafarul", "autor": "Mihai Eminescu", "an": "1883", "id": "e4cd189f-676b-473f-9a55-d8480ddf0a1b"}, "bcf55fab-0338-4e90-96a2-b47c9add4249": {"titlu": "O scrisoare pierduta", "autor": "I.L. Caragiale", "an": "1883", "id": "bcf55fab-0338-4e90-96a2-b47c9add4249"}, "6f3b17d4-6bc9-4a2e-aaa1-7eab1957cbf5": {"titlu": "Plumb", "autor": "George Bacovia", "an": "1916", "id": "6f3b17d4-6bc9-4a2e-aaa1-7eab1957cbf5"}, "c758f745-2cb1-4e4b-b424-7edc6b7e5448": {"titlu": "Amurg violet", "autor": "George Bacovia", "an": "1916", "id": "c758f745-2cb1-4e4b-b424-7edc6b7e5448"}}
+{
+  "e9a86e56-8636-4cec-8c99-e13801ecddc1": {
+    "titlu": "Copacul 312312",
+    "autor": "Ion Popescu",
+    "an": "1999",
+    "id": "e9a86e56-8636-4cec-8c99-e13801ecddc1"
+  },
+  "f35cffba-9c36-4dc5-b830-86b73f792a4f": {
+    "titlu": "Enigma Otiliei",
+    "autor": "George Calinescu",
+    "an": "1938",
+    "id": "f35cffba-9c36-4dc5-b830-86b73f792a4f"
+  },
+  "fb7e6eb7-91bc-4526-94a8-26b326d7b86c": {
+    "titlu": "Ion",
+    "autor": "Liviu Rebreanu",
+    "an": "1920",
+    "id": "fb7e6eb7-91bc-4526-94a8-26b326d7b86c"
+  },
+  "80b03ede-cf76-4fee-94e6-2c968efc6585": {
+    "titlu": "Moara cu noroc",
+    "autor": "Ioan Slavici",
+    "an": "1881",
+    "id": "80b03ede-cf76-4fee-94e6-2c968efc6585"
+  },
+  "ade843d1-19b8-408e-989f-e74f6abd78c9": {
+    "titlu": "Amintiri din copilarie",
+    "autor": "Ion Creanga",
+    "an": "1883",
+    "id": "ade843d1-19b8-408e-989f-e74f6abd78c9"
+  },
+  "e4cd189f-676b-473f-9a55-d8480ddf0a1b": {
+    "titlu": "Luceafarul",
+    "autor": "Mihai Eminescu",
+    "an": "1883",
+    "id": "e4cd189f-676b-473f-9a55-d8480ddf0a1b"
+  },
+  "bcf55fab-0338-4e90-96a2-b47c9add4249": {
+    "titlu": "O scrisoare pierduta",
+    "autor": "I.L. Caragiale",
+    "an": "1883",
+    "id": "bcf55fab-0338-4e90-96a2-b47c9add4249"
+  },
+  "6f3b17d4-6bc9-4a2e-aaa1-7eab1957cbf5": {
+    "titlu": "Plumb",
+    "autor": "George Bacovia",
+    "an": "1916",
+    "id": "6f3b17d4-6bc9-4a2e-aaa1-7eab1957cbf5"
+  },
+  "c758f745-2cb1-4e4b-b424-7edc6b7e5448": {
+    "titlu": "Amurg violet",
+    "autor": "George Bacovia",
+    "an": "1916",
+    "id": "c758f745-2cb1-4e4b-b424-7edc6b7e5448"
+  },
+  "4d7bf03c-7994-4bda-a49b-e0a4c432387e": {
+    "titlu": "Plumb",
+    "autor": "George Bacovia",
+    "an": "1916",
+    "id": "4d7bf03c-7994-4bda-a49b-e0a4c432387e"
+  },
+  "c2fedbac-ded5-4b2d-ade8-470f5030d7f9": {
+    "titlu": "Amurg viol",
+    "autor": "George Bacovia",
+    "an": "1916",
+    "id": "c2fedbac-ded5-4b2d-ade8-470f5030d7f9"
+  }
+}

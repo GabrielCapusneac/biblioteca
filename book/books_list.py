@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from library.fake_db import fake_db
 
-# from carte.modelcarte import BookCreate
+# afisam toata lista existenta in folderul in care introducem cartile
 
 books_list_router = APIRouter()
 

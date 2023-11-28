@@ -8,9 +8,6 @@ biblioteca = FastAPI()
 
 biblioteca.include_router(carti_router)
 biblioteca.include_router(books_list_router)
-# biblioteca.include_router(search_title_router)
-# biblioteca.include_router(search_an_router)
-# biblioteca.include_router(search_autor_router)
 biblioteca.include_router(search_results_router)
 
 if __name__ == "__main__":
